@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'Seconds';
+    src: url('fonts/Seconds.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul h1 {
+    font-size: 40px;
+    padding: 10px;
+    font-family: 'Seconds', sans-serif;
+    height: 50px;
+}
+#addA{
+     font-size: 40px;
+    padding: 10px;
+    font-family: 'Seconds', sans-serif;
+    height: 50px;
+}
+#Logo {
+    height: 100px;
+}
+
+.topicos {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.topicos ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite quebrar linha se necessário */
+    gap: 20px;
+}
+
+.coluna {
+    flex: 1 1 300px;
+    /* Cresce, encolhe, e tem largura mínima de 300px */
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+}
+
+/* Estilo opcional para títulos */
+.coluna h2 {
+    margin-top: 0;
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.Salgados,
+.Combos,
+.Doces {
+    display: flex;
+    height: 310px;
+    width: 660px;
+    background-color: antiquewhite;
+    margin: 9px;
+}
+
+#imgProduto {
+    width: 300px;
+    height: 300px;
+    margin: 4px;
+}
+
+.sobre .nomeProduto h3 {
+    width: 300px;
+    text-align: right;
+}
+
+#valor {
+    background-color: #c71a1a;
+    height: 25px;
+    width: 95px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    padding-bottom: 0%;
+    margin: 9px;
+}
+
+#valor {
+    color: yellow;
+}
+
+.rodape {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#info {
+    text-align: center;
+}
+
+.rodape a {
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
+
+/*cardapio*/
+
+body {
+  font-family: sans-serif;
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+.containerCarp {
+  max-width: 500px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff6333;
+}
+/*ADD*/
+#add{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+}
+/* ul {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  padding: 10px;
+  background-color: #ffe4d1;
+  margin-bottom: 10px;
+  border-radius: 5px;
+} */
